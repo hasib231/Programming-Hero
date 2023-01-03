@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
     <title>Document</title>
     <style>
         label{
@@ -11,14 +12,29 @@
             margin-bottom: 10px;
         }
         fieldset{
-            width: 20%;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        form{
+            display: grid;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 
 <body>
-    <h2>Welcome to pitha Ghor</h2>
+    <nav>
+        <ul>
+            <li><a href="navbar.html">Home</a></li>
+            <li><a href="form.html">form</a></li>
+            <li><a href="semantic.html">semantic</a></li>
+            <li><a href="">about</a></li>
+        </ul>
+    </nav>
+    
     <form>
+        <h2>Welcome to pitha Ghor</h2>
         <label for="name">Your name
             <input type="text" id="name" placeholder="Your name">
         </label>
