@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Welcome to pitha Ghor</h2>
+    <form>
+        <label for="name">Your name
+            <input type="text" id="name" placeholder="Your name">
+        </label>
+        <label for="email">Your email
+            <input type="email" id="email" placeholder="Your email">
+        </label>
+
+        <fieldset>
+            <legend style="text-align: center;">Pick one pitha</legend>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                Vapa
+            </label>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="tal">
+                <input type="radio" name="pitha" id="tal">
+                tal ptitha
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend style="text-align: center;">Select vorta</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">
+                Sorisa
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">
+                Shutki
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vorta" id="dal">
+                Dal
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
