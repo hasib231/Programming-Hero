@@ -26,7 +26,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 200px;
+  padding: 50px 200px;
 }
 .nav-title {
   font-weight: 800;
@@ -45,7 +45,7 @@ nav li {
 .banner {
   display: flex;
   align-items: center;
-  margin: 0 200px;
+  margin: 0 60px 0 200px;
 }
 .banner-title {
   font-weight: 700;
@@ -60,6 +60,7 @@ nav li {
   color: #757575;
   font-size: 18px;
   margin-bottom: 30px;
+  margin-right: 90px;
 }
 /* main section */
 main {
@@ -150,6 +151,7 @@ section {
 }
 .resume .description {
   color: #757575;
+  margin-right: 60px;
 }
 .resume-button{
   margin-top: 50px;
@@ -176,4 +178,5 @@ input{
 }
 .contact a{
   text-decoration: none;
+  padding: 0 20px;
 }
