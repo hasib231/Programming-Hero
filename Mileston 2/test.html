@@ -4,41 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
     <title>Document</title>
     <style>
-        .test{
+        .parent-box{
             width: 500px;
             height: 500px;
-            background-color: rgb(126, 138, 240);
+            background-color: aqua;
             position: relative;
         }
-        .test > h1{
-            width: 100px;
-            height: 100px;
-            background-color: aqua;
-            border: 1px solid black;
+        .box1{
+            width: 300px;
+            height: 200px; 
+            background-color: rgb(95, 95, 243);
             position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%,-50%);
-            text-align: center;
-            
+            bottom: 0;
+            z-index: 20;
         }
-        @media screen and (max-width: 1000px) {
-            .test{
-                background-color: green;
-            }
+        .box2{
+            width: 200px;
+            height: 300px; 
+            background-color: rgb(107, 243, 95);
+            position: absolute;
+            bottom: 0;
+            z-index: 10;
         }
-        @media screen and (max-width: 600px) {
-            .test{
-                background-color: yellow;
-            }
+        .image{
+            position: absolute;
+            z-index:35;
+            right: 0;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <div class="test">
-        <h1>box-1</h1>
+    <div class="parent-box">
+        <div class="box1">
+            <h1>box-1</h1>
+        </div>
+        <div class="box2">
+            <h1>box-2</h1>
+        </div>
+        <div class="image">
+            <img src="images/bat.png" alt="">
+        </div>
     </div>
+  
+    
 </body>
 </html>
