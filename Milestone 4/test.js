@@ -1,5 +1,7 @@
-var n = 0;
-while(n < 7){
-    console.log(n);
-    n++;
-}
+let a='hi'
+
+let b='there'
+
+console.log(a+b)
+
+   
