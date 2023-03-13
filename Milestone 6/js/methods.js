@@ -1,3 +1,4 @@
+
 const fiveTimes = [1,2,3,4,5].map(x => x * 5);
 // console.log(fiveTimes);
 
@@ -16,3 +17,26 @@ const stuInfo = JSON.stringify({ name: "James", roll: 3 });
 // console.log(stuInfo.name);
 
 
+// console.log(add(5,5));
+// function add(a,b){
+//     return a+b;
+// }
+
+
+// const mul = function(a,b){
+//     return a*b;
+// }
+// console.log(mul(5,5));
+
+
+// add(2, 3); // Uncaught ReferenceError: Cannot access 'add' before initialization
+
+// const add = (a, b) => {
+//   return a + b;
+// };
+
+// function sum(p, q) {
+//   p + q;
+//  }
+//  const result = sum(2, 3);
+//  console.log(result);

@@ -1,3 +1,4 @@
+
 const loadPhones = async(searchText, dataLimit) =>{
     const url = `https://openapi.programming-hero.com/api/phones?search=${searchText}`
     const res = await fetch(url);
@@ -82,6 +83,7 @@ const toggleSpinner = isLoading => {
 document.getElementById('btn-show-all').addEventListener('click',function(){
     processSearch();
 });
+
 
 const loadPhoneDetails = async   id =>{
     const url = `https://openapi.programming-hero.com/api/phone/${id}`;
