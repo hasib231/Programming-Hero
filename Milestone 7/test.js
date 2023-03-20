@@ -1,3 +1,3 @@
-const sum = (p, q) => parseInt(p) + q;
-const total = sum("h", 1);
-console.log(total);
+
+const obj = {a:1};
+console.log(Object.keys(obj).length===0);
