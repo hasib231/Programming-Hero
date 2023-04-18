@@ -10,23 +10,6 @@ import First from './Component/First/First';
 import FriendDetail from './Component/FriendDetail/FriendDetail';
 
 
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App></App>,
-//   },
-//   {
-//     path: "/about",
-//     element: <About></About>,
-    
-//   },
-//   {
-//     path: "/contact",
-//     element: <Contact></Contact>,
-//   },
-// ]);
-
 const router = createBrowserRouter([
   {
     path: "/",
