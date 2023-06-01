@@ -8,6 +8,7 @@ const MenuItem = ({ item }) => {
           style={{ borderRadius: "0 200px 200px 200px" }}
           className="w-[100px]"
           src="https://media-cdn.tripadvisor.com/media/photo-s/15/9e/05/d1/grilled-prawn.jpg"
+          // src={image}
           alt=""
         />
         <div>
