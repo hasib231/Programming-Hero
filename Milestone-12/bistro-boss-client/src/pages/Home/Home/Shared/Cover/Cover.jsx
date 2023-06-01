@@ -8,7 +8,7 @@ const Cover = ({img,title}) => {
         bgImage={img}
         bgImageAlt="the menu"
         strength={-200}
-        style={{ height: "100vh"}}
+        style={{ height: "90vh"}}
       >
         <div className="hero min-h-screen">
           <div className="hero-overlay bg-opacity-60"></div>

@@ -3,7 +3,7 @@ import React from 'react';
 const MenuItem = ({ item }) => {
      const { name, image, price, recipe } = item;
     return (
-      <div className="flex space-x-2">
+      <div className="flex space-x-2 w-8/12 mx-auto">
         <img
           style={{ borderRadius: "0 200px 200px 200px" }}
           className="w-[100px]"
